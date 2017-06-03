@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp" />
+    <ClCompile Include="Vendor\ed25519\src\add_scalar.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\fe.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\ge.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\key_exchange.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\keypair.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\sc.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\seed.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\sha3.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\sign.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\ed25519\src\verify.c">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Iroha.cpp" />
+    <ClCompile Include="KeyPair.cpp" />
+    <ClCompile Include="Sha3Util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Vendor">
+      <UniqueIdentifier>{1221011b-ff95-4cf8-b681-ac7e2ba97bde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\ed25519">
+      <UniqueIdentifier>{fbb148d8-ea71-45f0-959a-55c308a1aaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vendor\ed25519\src">
+      <UniqueIdentifier>{26681e29-2a37-4ec4-bba0-46c7054d33a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vendor\ed25519\src\ed25519.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\fe.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\fixedint.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\ge.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\precomp_data.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\sc.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\ed25519\src\sha3.h">
+      <Filter>Vendor\ed25519\src</Filter>
+    </ClInclude>
+    <ClInclude Include="Iroha.h" />
+    <ClInclude Include="KeyPair.h" />
+    <ClInclude Include="Sha3Util.h" />
+  </ItemGroup>
+</Project>
