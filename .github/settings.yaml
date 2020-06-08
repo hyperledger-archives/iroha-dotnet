@@ -1,0 +1,9 @@
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+
+repository:
+  name: iroha-dotnet
+  description: Archive of iroha-dotnet: a .NET library for Hyperledger Iroha.
+  archived: true
+  private: false
